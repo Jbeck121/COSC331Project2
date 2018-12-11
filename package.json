@@ -1,0 +1,32 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Rest api backend for COSC 331",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx babel-node -- ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
+    "mustache": "^3.0.1",
+    "nodemon": "^1.17.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
